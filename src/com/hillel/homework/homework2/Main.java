@@ -19,7 +19,7 @@ public class Main {
 
         System.out.printf("\na : %.2f\n", a);
         System.out.printf("b : %.2f\n", b);
-        // some C vibes
+        // Some C vibes
 
         double replaceB = a;
         double replaceA = b;
