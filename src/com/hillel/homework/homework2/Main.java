@@ -21,11 +21,18 @@ public class Main {
         System.out.printf("b : %.2f\n", b);
         // Some C vibes
 
-        double replaceB = a;
+        a += b;
+        b = a - b;
+        a -= b;
+
+        System.out.printf("\na :%.2f\n",a);
+        System.out.printf("b :%.2f\n",b);
+        
+        /* double replaceB = a;
         double replaceA = b;
 
         System.out.printf("\na : %.2f\n",replaceA);
-        System.out.printf("b : %.2f\n",replaceB);
+        System.out.printf("b : %.2f\n",replaceB); */
 
 
 
